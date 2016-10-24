@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="btn_main_textsize">30sp</dimen>
+    <dimen name="btn_main_width">150dp</dimen>"
+
+
+
+    <dimen name="btn_quiz_min_height">80dp</dimen>
+
+    <dimen name="text_question">22sp</dimen>
+
+</resources>

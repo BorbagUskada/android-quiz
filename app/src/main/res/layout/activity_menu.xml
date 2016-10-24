@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_main_pong_2d"-->
+        <!--android:layout_width="@dimen/btn_main_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/btn_main"-->
+        <!--android:padding="15px"-->
+        <!--android:text="Pong 1D"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textSize="@dimen/btn_main_textsize"-->
+        <!--android:layout_marginTop="75dp"-->
+        <!--android:onClick="clickPong"/>-->
+
+    <Button
+        android:id="@+id/btn_main_quiz"
+        android:layout_width="@dimen/btn_main_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:padding="15px"
+        android:text="Jouer"
+        android:textSize="@dimen/btn_main_textsize"
+        android:onClick="clickQuiz"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <!--android:layout_below="@+id/btn_main_pong_2d"-->
+    <!--android:layout_alignStart="@+id/btn_main_pong_2d"-->
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_main_score"-->
+        <!--android:layout_width="@dimen/btn_main_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:background="@drawable/btn_main"-->
+        <!--android:padding="15px"-->
+        <!--android:text="Score"-->
+        <!--android:textSize="@dimen/btn_main_textsize"-->
+        <!--android:onClick="clickScore"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignStart="@+id/btn_main_quiz" />-->
+</RelativeLayout>

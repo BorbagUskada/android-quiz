@@ -1,0 +1,129 @@
+[
+  {
+    "question_text": "Combien font 12 x 3 ?",
+    "true_answ": "36",
+    "bad_answ": "34",
+    "bad_answ_2": "38",
+    "bad_answ_3": "32"
+  },
+  {
+    "question_text": "En quelle année les mayas ont-ils disparus ?",
+    "true_answ": "1698",
+    "bad_answ": "1612",
+    "bad_answ_2": "1542",
+    "bad_answ_3": "1497"
+  },
+  {
+    "question_text": "Quel pays ne se trouve PAS en Europe ?",
+    "true_answ": "Lesotho",
+    "bad_answ": "Kosovo",
+    "bad_answ_2": "Arménie",
+    "bad_answ_3": "Monténégro"
+  },
+  {
+    "question_text": "Comment Barberousse est-il mort ?",
+    "true_answ": "Noyé",
+    "bad_answ": "Tué en combat",
+    "bad_answ_2": "Assassiné",
+    "bad_answ_3": "De vieillesse"
+  },
+  {
+    "question_text": "Que signifie le sigle 'USB' ?",
+    "true_answ": "Universal Serial Bus",
+    "bad_answ": "Unilateral Service Bus",
+    "bad_answ_2": "Units Send by Bus",
+    "bad_answ_3": "Universal Systemized Bytes"
+  },
+  {
+    "question_text": "Quelle est la force maximale de la mâchoire d'une hyène ?",
+    "true_answ": "~950kg",
+    "bad_answ": "~90kg",
+    "bad_answ_2": "~350kg",
+    "bad_answ_3": "~480kg"
+  },
+  {
+    "question_text": "Combien font (17 x 3) - 12 ?",
+    "true_answ": "39",
+    "bad_answ": "43",
+    "bad_answ_2": "35",
+    "bad_answ_3": "47"
+  },
+  {
+    "question_text": "À quoi le théorème de Pythagore peut-il servir à calculer ?",
+    "true_answ": "L'hypothénuse",
+    "bad_answ": "La circonférence",
+    "bad_answ_2": "Le périmètre",
+    "bad_answ_3": "L'aire"
+  },
+  {
+    "question_text": "Sur un clavier standard français, combien y a-t-il de touches sur la lignes des chiffres ?",
+    "true_answ": "14",
+    "bad_answ": "11",
+    "bad_answ_2": "10",
+    "bad_answ_3": "13"
+  },
+  {
+    "question_text": "En quelle année les 'Pilgrim Fathers' ont-ils atteris en Amérique ?",
+    "true_answ": "1620",
+    "bad_answ": "1492",
+    "bad_answ_2": "1660",
+    "bad_answ_3": "1541"
+  },
+  {
+    "question_text": "Quel animal ne marche pas l'amble (comme les girafes) ?",
+    "true_answ": "Zèbre",
+    "bad_answ": "Ours",
+    "bad_answ_2": "Okapi",
+    "bad_answ_3": "Chien de traineau"
+  },
+  {
+    "question_text": "Comment appele-t-on aussi le Bouddha historique ?",
+    "true_answ": "Shakyamuni",
+    "bad_answ": "Ajataśatru",
+    "bad_answ_2": "Devadattai",
+    "bad_answ_3": "Śuddhodana"
+  },
+  {
+    "question_text": "Quel est le nom d'Android 4.4 ?",
+    "true_answ": "KitKat",
+    "bad_answ": "Lollipop",
+    "bad_answ_2": "Marshmallow",
+    "bad_answ_3": "Froyo"
+  },
+  {
+    "question_text": "Continuez cette suite : 01 02 03 04 ..",
+    "true_answ": "05",
+    "bad_answ": "5",
+    "bad_answ_2": "50",
+    "bad_answ_3": "17"
+  },
+  {
+    "question_text": "Qui a composé 'Les Quatres Saisons' ?",
+    "true_answ": "Vivaldi",
+    "bad_answ": "Bach",
+    "bad_answ_2": "Mozart",
+    "bad_answ_3": "Beethoven"
+  },
+  {
+    "question_text": "Quel animal a les sucs gastriques les plus puissants ?",
+    "true_answ": "Condor des Andes",
+    "bad_answ": "Hyène",
+    "bad_answ_2": "Calamar Géant",
+    "bad_answ_3": "Vautour moine"
+  },
+  {
+    "question_text": "Qui fût le 2nd président de la Vème République Française ?",
+    "true_answ": "Pompidou",
+    "bad_answ": "Giscard d'Estaing",
+    "bad_answ_2": "de Gaulle",
+    "bad_answ_3": "Mitterand"
+  },
+  {
+    "question_text": "Combien mesurait Robert Wadlow, le plus grand ayant jamais existé ?",
+    "true_answ": "2m72",
+    "bad_answ": "2m51",
+    "bad_answ_2": "2m80",
+    "bad_answ_3": "2m65"
+  }
+
+]

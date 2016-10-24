@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorVingt">#0D0</color>
+    <color name="colorQuarante">#9A2</color>
+    <color name="colorSoixante">#EB2</color>
+    <color name="colorQuatreVingt">#D60</color>
+    <color name="colorCent">#F00</color>
+
+    <color name="middle_progress">#0D0</color>
+    <color name="before_able_progress">#EB2</color>
+    <color name="able_progress">#E83</color>
+    <color name="able_late_progress">#F00</color>
+
+    
+
+    <color name="background_quiz">#555</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white_pure">#FFF</color>
+    <color name="yellow_biig">#ffffdc00</color>
+</resources>
