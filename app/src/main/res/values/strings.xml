@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ZZQuiz</string>
+
+
+    <string name="btn_enable">O</string>
+    <string name="btn_disable">X</string>
+
+    <string name="new_game">New Game</string>
+    <string name="new_hard_game">Only One Chance Game</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

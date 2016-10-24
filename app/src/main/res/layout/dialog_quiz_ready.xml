@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_dialog_quiz_ready"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background_quiz">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+    <!-- Joueur 2 -->
+    <TextView
+        android:id="@+id/tv_ready_usr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="La partie commencera lorsque les 2 joueurs seront prêts"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:rotation="180"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_above="@+id/v_separator"
+        android:layout_alignEnd="@+id/v_separator" />
+    <Button
+        android:id="@+id/btn_ready_usr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_ready_usr2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_quiz_false"
+        android:layout_marginBottom="10dp"
+        android:text="Prêt ?"
+        android:rotation="180" />
+
+    <!-- Séparateur d'écran -->
+    <View
+        android:id="@+id/v_separator"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/line_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/tv_ready_usr1" />
+
+
+    <!-- Joueur 1 -->
+    <TextView
+        android:id="@+id/tv_ready_usr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="La partie commencera lorsque les 2 joueurs seront prêts"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_below="@+id/v_separator"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/btn_ready_usr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ready_usr1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Prêt ?"
+        android:background="@drawable/btn_quiz_false"/>
+
+        <TextView
+            android:id="@+id/tv_ready_countdown_usr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="120sp"
+            android:textStyle="bold"
+            android:textColor="#ffffd500"
+            android:translationZ="10dp"
+            android:layout_below="@+id/tv_ready_usr2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_ready_countdown_usr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="120sp"
+            android:textStyle="bold"
+            android:textColor="#ffffd500"
+            android:translationZ="10dp"
+            android:rotation="180"
+            android:layout_alignBottom="@+id/v_separator"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
