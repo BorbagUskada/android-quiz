@@ -8,7 +8,7 @@
   },
   {
     "question_text": "En quelle année les mayas ont-ils disparus ?",
-    "true_answ": "1698",
+    "true_answ": "1697",
     "bad_answ": "1612",
     "bad_answ_2": "1542",
     "bad_answ_3": "1497"
@@ -70,7 +70,7 @@
     "bad_answ_3": "1541"
   },
   {
-    "question_text": "Quel animal ne marche pas l'amble (comme les girafes) ?",
+    "question_text": "Quel animal ne marche PAS l'amble (comme les girafes) ?",
     "true_answ": "Zèbre",
     "bad_answ": "Ours",
     "bad_answ_2": "Okapi",
@@ -119,11 +119,75 @@
     "bad_answ_3": "Mitterand"
   },
   {
-    "question_text": "Combien mesurait Robert Wadlow, le plus grand ayant jamais existé ?",
+    "question_text": "Combien mesurait Robert Wadlow, le plus grand homme ayant jamais existé ?",
     "true_answ": "2m72",
     "bad_answ": "2m51",
     "bad_answ_2": "2m80",
     "bad_answ_3": "2m65"
+  },
+  {
+    "question_text": "Quelle était la nationalité d'origine de 'Che Guevara' ?",
+    "true_answ" : "Argentin",
+    "bad_answ" : "Brézilien",
+    "bad_answ_2" : "Colombien",
+    "bad_answ_3" : "Cubain"
+  },
+  {
+    "question_text": "Quelle est la plus petite unité de mémoire en informatique ?",
+    "true_answ" : "Le bit",
+    "bad_answ" : "Le byte",
+    "bad_answ_2" : "L'octet",
+    "bad_answ_3" : "Le mega"
+  },
+  {
+    "question_text": "Combien d'espèces de crocodiliens existe-t-ils ? (Crocodiles, Caïmans, Alligators, Gavials) ?",
+    "true_answ" : "25",
+    "bad_answ" : "11",
+    "bad_answ_2" : "40",
+    "bad_answ_3" : "47"
+  },
+  {
+    "question_text": "Quelle espèce de rhinocéros n'existe PAS ?",
+    "true_answ" : "Rhinocéros du Laos",
+    "bad_answ" : "Rhinocéros Indien",
+    "bad_answ_2" : "Rhinocéros de Java",
+    "bad_answ_3" : "Rhinocéros de Sumatra"
+  },
+  {
+    "question_text": "Quelle est la vitesse maximale que peuvent atteindre les rhinocéros ?",
+    "true_answ" : "50km/h",
+    "bad_answ" : "20km/h",
+    "bad_answ_2" : "30km/h",
+    "bad_answ_3" : "40km/h"
+  },
+  {
+    "question_text": "Quelle est le nom d'une bière de fermentation basse ?",
+    "true_answ" : "Lager",
+    "bad_answ" : "Ale",
+    "bad_answ_2" : "Stout",
+    "bad_answ_3" : "Lambic"
+  },
+  {
+    "question_text": "Qui est l'inventeur de la dynamite ?",
+    "true_answ" : "Alfred Nobel",
+    "bad_answ" : "Samuel Colt",
+    "bad_answ_2" : "Peter Cooper",
+    "bad_answ_3" : "Rudol Diesel"
+  },
+  {
+    "question_text": "Quel domaine possède un prix appelé 'Prix Nobel' par simplification, en mémoire d'Alfred Nobel ?",
+    "true_answ" : "Economie",
+    "bad_answ" : "Paix",
+    "bad_answ_2" : "Littérature",
+    "bad_answ_3" : "Médecine"
   }
+//  {
+//    "question_text": "Parmi ces inventions, laquelle est la plus vieille ?",
+//    "true_answ" : "Temp",
+//    "bad_answ" : "Temp",
+//    "bad_answ_2" : "Temp",
+//    "bad_answ_3" : "Temp"
+//  }
+
 
 ]
