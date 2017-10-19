@@ -100,7 +100,7 @@ public class ScoreActivity extends Activity {
                 } else if(mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_2) < mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_1)) {
                     setWinnerIsUser2();
                 } else {
-                    Log.i("BiigLogScore", "Égalité parfaite");
+                    Log.i("BoUsLogScore", "Égalité parfaite");
                     //TODO Égalité parfaite
                 }
 

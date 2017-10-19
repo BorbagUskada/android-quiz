@@ -18,6 +18,7 @@
     
 
     <color name="background_quiz">#555</color>
+    <color name="background_quiz_light">#777</color>
 
     <color name="black_overlay">#66000000</color>
     <color name="white_pure">#FFF</color>

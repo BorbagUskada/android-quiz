@@ -11,4 +11,22 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="menu_btn_multiplayer">2 joueurs</string>
+    <string name="menu_btn_singleplayer">1 joueur</string>
+    <string name="menu_label">Menu</string>
+    <string name="menu_back_to_label">Retour menu</string>
+    <string name="menu_replay">Rejouer</string>
+
+    <string name="activity_score_label">Score</string>
+    <string name="activity_score_label_final">Score final</string>
+    <string name="activity_score_label_winner">Vainqueur :</string>
+    <string name="activity_score_label_player_one">Joueur 1</string>
+    <string name="activity_score_label_player_two">Joueur 2</string>
+    <string name="activity_score_label_true_answers">Bonnes réponses :</string>
+    <string name="activity_score_label_wrong_answers">Mauvaises réponses :</string>
+    <string name="activity_score_label_overtime">dont hors temps :</string>
+
+    <string name="dialog_nb_question_label">Sélectionner le nombre de question à jouer : </string>
+
 </resources>

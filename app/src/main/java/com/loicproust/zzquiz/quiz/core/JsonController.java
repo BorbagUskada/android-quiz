@@ -3,7 +3,9 @@ package com.loicproust.zzquiz.quiz.core;
 import android.content.Context;
 import android.util.Log;
 
-import com.loicproust.zzquiz.quiz.activity.multiplayer.MultiPlayerQuizActivity;
+import com.loicproust.zzquiz.quiz.ui.activities.multiplayer.MultiPlayerQuizOldActivity;
+import com.loicproust.zzquiz.quiz.core.beans.Question;
+import com.loicproust.zzquiz.quiz.core.beans.QuestionsList;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -38,7 +40,7 @@ public class JsonController {
     private String loadJsonFromAsset() {
         String json;
         try {
-            InputStream inputStream = mContext.getAssets().open(MultiPlayerQuizActivity.QUESTIONS_JSON_FILENAME);
+            InputStream inputStream = mContext.getAssets().open(MultiPlayerQuizOldActivity.QUESTIONS_JSON_FILENAME);
             int size = inputStream.available();
             byte[] buffer = new byte[size];
             inputStream.read(buffer);
@@ -82,7 +84,7 @@ public class JsonController {
                 jsonObj = jsonArray.getJSONObject(i);
                 questions.add(getQuestionFromJson(jsonObj));
             }
-            Log.i("BiigLog", "Questions ? : " + questions.size());
+            Log.i("BoUsLog", "Questions ? : " + questions.size());
             Collections.shuffle(questions);
             questionsList.addQuestions(questions);
         } catch(Exception e) {

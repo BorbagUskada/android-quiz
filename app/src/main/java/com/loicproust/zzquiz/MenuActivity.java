@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.loicproust.zzquiz.quiz.dialog.ChooseNbQuestionsDialog;
-import com.loicproust.zzquiz.quiz.activity.multiplayer.MultiPlayerQuizActivity;
+import com.loicproust.zzquiz.quiz.ui.activities.multiplayer.MultiPlayerQuizOldActivity;
 
 /** Activity to handle menu
  * Created by Loïc Proust on 26/04/2016.
@@ -24,7 +24,7 @@ public class MenuActivity extends AppCompatActivity implements ChooseNbQuestions
     }
 
     public void clickQuiz(View v) {
-        mIntent = new Intent(this, MultiPlayerQuizActivity.class);
+        mIntent = new Intent(this, MultiPlayerQuizOldActivity.class);
         ChooseNbQuestionsDialog dialog = new ChooseNbQuestionsDialog(this, this);
         dialog.setCancelable(false);
         dialog.show();

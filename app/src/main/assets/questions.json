@@ -1,17 +1,10 @@
 [
   {
-    "question_text": "Combien font 12 x 3 ?",
-    "true_answ": "36",
-    "bad_answ": "34",
-    "bad_answ_2": "38",
-    "bad_answ_3": "32"
-  },
-  {
-    "question_text": "En quelle année les mayas ont-ils disparus ?",
+    "question_text": "En quelle année les mayas ont-ils définitivement disparus ?",
     "true_answ": "1697",
     "bad_answ": "1612",
     "bad_answ_2": "1542",
-    "bad_answ_3": "1497"
+    "bad_answ_3": "1570"
   },
   {
     "question_text": "Quel pays ne se trouve PAS en Europe ?",
@@ -41,26 +34,19 @@
     "bad_answ_2": "~350kg",
     "bad_answ_3": "~480kg"
   },
-  {
-    "question_text": "Combien font (17 x 3) - 12 ?",
-    "true_answ": "39",
-    "bad_answ": "43",
-    "bad_answ_2": "35",
-    "bad_answ_3": "47"
-  },
+//  {
+//    "question_text": "Combien font (17 x 3) - 12 ?",
+//    "true_answ": "39",
+//    "bad_answ": "43",
+//    "bad_answ_2": "35",
+//    "bad_answ_3": "47"
+//  },
   {
     "question_text": "À quoi le théorème de Pythagore peut-il servir à calculer ?",
     "true_answ": "L'hypothénuse",
     "bad_answ": "La circonférence",
     "bad_answ_2": "Le périmètre",
     "bad_answ_3": "L'aire"
-  },
-  {
-    "question_text": "Sur un clavier standard français, combien y a-t-il de touches sur la lignes des chiffres ?",
-    "true_answ": "14",
-    "bad_answ": "11",
-    "bad_answ_2": "10",
-    "bad_answ_3": "13"
   },
   {
     "question_text": "En quelle année les 'Pilgrim Fathers' ont-ils atteris en Amérique ?",
@@ -89,13 +75,6 @@
     "bad_answ": "Lollipop",
     "bad_answ_2": "Marshmallow",
     "bad_answ_3": "Froyo"
-  },
-  {
-    "question_text": "Continuez cette suite : 01 02 03 04 ..",
-    "true_answ": "05",
-    "bad_answ": "5",
-    "bad_answ_2": "50",
-    "bad_answ_3": "17"
   },
   {
     "question_text": "Qui a composé 'Les Quatres Saisons' ?",
@@ -172,7 +151,7 @@
     "true_answ" : "Alfred Nobel",
     "bad_answ" : "Samuel Colt",
     "bad_answ_2" : "Peter Cooper",
-    "bad_answ_3" : "Rudol Diesel"
+    "bad_answ_3" : "Rudolf Diesel"
   },
   {
     "question_text": "Quel domaine possède un prix appelé 'Prix Nobel' par simplification, en mémoire d'Alfred Nobel ?",
@@ -180,14 +159,75 @@
     "bad_answ" : "Paix",
     "bad_answ_2" : "Littérature",
     "bad_answ_3" : "Médecine"
+  },
+  {
+    "question_text": "Qu'est-ce/Qui est Fassbinder ?",
+    "true_answ" : "Réalisateur allemand",
+    "bad_answ" : "Traduction littérale de 'Facebook' en danois",
+    "bad_answ_2" : "Sorte de fantôme",
+    "bad_answ_3" : "Ville allemande"
+  },
+  {
+    "question_text": "En quelle année Attila le Hun est-il mort ?",
+    "true_answ" : "453",
+    "bad_answ" : "531",
+    "bad_answ_2" : "451",
+    "bad_answ_3" : "491"
+  },
+  {
+    "question_text": "En quelle année le président J.F.Kennedy est-il mort ?",
+    "true_answ" : "1963",
+    "bad_answ" : "1967",
+    "bad_answ_2" : "1971",
+    "bad_answ_3" : "1965"
+  },
+  {
+    "question_text": "Dans quelle ville le tsar Nicholas\u00A0II et toute sa famille ont-ils été assassinés ?",
+    "true_answ" : "Iekaterimbourg",
+    "bad_answ" : "Tsarskoe Selo",
+    "bad_answ_2" : "Petrograd\n(Saint-Pétersbourg)",
+    "bad_answ_3" : "Moscou"
+  },
+  {
+    "question_text": "Qui fût le dernier tsar de Russie ?",
+    "true_answ" : "Nicholas\u00A0II",
+    "bad_answ" : "Alexander\u00A0III",
+    "bad_answ_2" : "Ivan le Terrible",
+    "bad_answ_3" : "Pierre\u00A0Ier le Grand"
+  },
+  {
+    "question_text": "Quel est le nom du Serpent-Oiseau à plume aztèque ?",
+    "true_answ" : "Quetzalcóatl",
+    "bad_answ" : "Moctezuma",
+    "bad_answ_2" : "Pachacutec",
+    "bad_answ_3" : "Cuauhtémoc"
+  },
+  {
+    "question_text": "En quelle année le groupe 'Led Zeppelin' a-t-il été formé ?",
+    "true_answ" : "1968",
+    "bad_answ" : "1970",
+    "bad_answ_2" : "1965",
+    "bad_answ_3" : "1973"
+  },
+  {
+    "question_text": "Quel groupe a composé et joué la chanson 'Wind of changes' ?",
+    "true_answ" : "Scorpion",
+    "bad_answ" : "Metallica",
+    "bad_answ_2" : "Guns'n Roses",
+    "bad_answ_3" : "Linkin Park"
+  },
+  {
+    "question_text": "Quel était le prénom de Rasputine ?",
+    "true_answ" : "Grigory",
+    "bad_answ" : "Dmitri",
+    "bad_answ_2" : "Vladimir",
+    "bad_answ_3" : "Yakov"
+  },
+  {
+    "question_text": "Qui était Rasputine ?",
+    "true_answ" : "Un staret\n(guérisseur)",
+    "bad_answ" : "Un célèbre criminel russe",
+    "bad_answ_2" : "Le dernier tsar de Russie",
+    "bad_answ_3" : "Un révolutionnaire bolchévik"
   }
-//  {
-//    "question_text": "Parmi ces inventions, laquelle est la plus vieille ?",
-//    "true_answ" : "Temp",
-//    "bad_answ" : "Temp",
-//    "bad_answ_2" : "Temp",
-//    "bad_answ_3" : "Temp"
-//  }
-
-
 ]

@@ -1,4 +1,6 @@
-package com.loicproust.zzquiz.quiz.core;
+package com.loicproust.zzquiz.quiz.core.beans;
+
+import com.loicproust.zzquiz.quiz.core.beans.Question;
 
 import java.util.ArrayList;
 

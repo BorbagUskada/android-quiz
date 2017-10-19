@@ -1,4 +1,4 @@
-package com.loicproust.zzquiz.quiz.activity.multiplayer;
+package com.loicproust.zzquiz.quiz.ui.activities.multiplayer;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import com.loicproust.zzquiz.MenuActivity;
 import com.loicproust.zzquiz.R;
 import com.loicproust.zzquiz.quiz.dialog.GetReadyDialog;
 import com.loicproust.zzquiz.quiz.core.JsonController;
-import com.loicproust.zzquiz.quiz.core.Question;
-import com.loicproust.zzquiz.quiz.core.QuestionsList;
+import com.loicproust.zzquiz.quiz.core.beans.Question;
+import com.loicproust.zzquiz.quiz.core.beans.QuestionsList;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -23,7 +23,7 @@ import java.util.Random;
 /** Main activity for split-screen Quiz game
  * Created by Loïc Proust on 27/04/2016.
  */
-public class MultiPlayerQuizActivity extends AppCompatActivity implements View.OnClickListener, GetReadyDialog.OnBothUsersReadyListener {
+public class MultiPlayerQuizOldActivity extends AppCompatActivity implements View.OnClickListener, GetReadyDialog.OnBothUsersReadyListener {
 
     public static final String QUESTIONS_JSON_FILENAME = "questions.json";
 
@@ -130,6 +130,7 @@ public class MultiPlayerQuizActivity extends AppCompatActivity implements View.O
         mNbQuestions = 0;
         mNbMaxQuestions = getIntent().getExtras().getInt(MenuActivity.KEY_NB_QUESTIONS);
         mQuestionList = JsonController.getInstance(this).loadQuestionsListFromAssets();
+        /* Id for randomization buttons placement */
         mBtnsPos[0] = 0;
         mBtnsPos[1] = 1;
         mBtnsPos[2] = 2;
@@ -229,10 +230,10 @@ public class MultiPlayerQuizActivity extends AppCompatActivity implements View.O
             mTimeProgress = 0;
             mHandler.postDelayed(mProgressBarRunnable, 125);
 
-        } else {
+        } else { //TODO Change to negativist condition
 
-            Log.i("BiigLog", "True answer 1 : " + mNbTrueAnsweredUsr1 + " | Bad answer 1 : " + mNbBadAnsweredUsr1);
-            Log.i("BiigLog", "True answer 2 : " + mNbTrueAnsweredUsr2 + " | Bad answer 2 : " + mNbBadAnsweredUsr2);
+            Log.i("BoUsLog", "True answer 1 : " + mNbTrueAnsweredUsr1 + " | Bad answer 1 : " + mNbBadAnsweredUsr1);
+            Log.i("BoUsLog", "True answer 2 : " + mNbTrueAnsweredUsr2 + " | Bad answer 2 : " + mNbBadAnsweredUsr2);
             Intent intent = new Intent(this, MultiplayerScoreActivity.class);
             Bundle bundle = new Bundle();
             bundle.putInt(KEY_NB_ANSWERED_TRUE_USER_1, mNbTrueAnsweredUsr1);

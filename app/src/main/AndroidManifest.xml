@@ -18,28 +18,38 @@
         <!-- </intent-filter> -->
         <!-- </activity> -->
 
-        <activity android:name="com.loicproust.zzquiz.quiz.activity.multiplayer.MultiPlayerQuizActivity"
+        <activity android:name=".quiz.ui.activities.multiplayer.MultiPlayerQuizOldActivity"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen"/>
 
         <activity android:name="com.loicproust.zzquiz.MenuActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        </activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <activity android:name=".quiz.ui.activities.multiplayer.MultiplayerScoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+
+        <activity android:name=".quiz.ui.activities.singleplayer.SinglePlayerQuizActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+
+        <activity android:name=".quiz.ui.activities.singleplayer.SinglePlayerScoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen"/>
+        
+        <activity android:name=".quiz.ui.activities.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.loicproust.zzquiz.quiz.activity.multiplayer.MultiplayerScoreActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        </activity>
     </application>
 
 </manifest>

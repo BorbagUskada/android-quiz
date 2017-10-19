@@ -231,8 +231,8 @@ public class MultiPlayerQuizActivity extends AppCompatActivity implements View.O
 
         } else {
 
-            Log.i("BiigLog", "True answer 1 : " + mNbTrueAnsweredUsr1 + " | Bad answer 1 : " + mNbBadAnsweredUsr1);
-            Log.i("BiigLog", "True answer 2 : " + mNbTrueAnsweredUsr2 + " | Bad answer 2 : " + mNbBadAnsweredUsr2);
+            Log.i("BoUsLog", "True answer 1 : " + mNbTrueAnsweredUsr1 + " | Bad answer 1 : " + mNbBadAnsweredUsr1);
+            Log.i("BoUsLog", "True answer 2 : " + mNbTrueAnsweredUsr2 + " | Bad answer 2 : " + mNbBadAnsweredUsr2);
             Intent intent = new Intent(this, ScoreActivity.class);
             Bundle bundle = new Bundle();
             bundle.putInt(KEY_NB_ANSWERED_TRUE_USER_1, mNbTrueAnsweredUsr1);

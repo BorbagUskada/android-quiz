@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_quiz">
+
+    <TextView
+        android:id="@+id/tv_game_panel_question_usr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb_quiz_time_remaining"
+        android:layout_above="@+id/linearLayout"
+        android:layout_marginTop="10dp"
+        android:text="Question test"
+        android:textSize="@dimen/text_question"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        style="@style/LinearLayoutButtonVertical"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_usr1_answ1"
+                style="@style/QuizButton"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="50%"
+                android:text="Answer 1"/>
+            <Button
+                android:id="@+id/btn_usr1_answ2"
+                style="@style/QuizButton"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="50%"
+                android:layout_toEndOf="@id/btn_usr1_answ1"
+                android:text="Answer 2" />
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_usr1_answ3"
+                style="@style/QuizButton"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="50%"
+                android:text="Answer 3" />
+            <Button
+                android:id="@+id/btn_usr1_answ4"
+                style="@style/QuizButton"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="50%"
+                android:layout_toEndOf="@id/btn_usr1_answ3"
+                android:text="Answer 4" />
+        </android.support.percent.PercentRelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

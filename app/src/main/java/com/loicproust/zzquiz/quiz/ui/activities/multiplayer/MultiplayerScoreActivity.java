@@ -1,4 +1,4 @@
-package com.loicproust.zzquiz.quiz.activity.multiplayer;
+package com.loicproust.zzquiz.quiz.ui.activities.multiplayer;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -83,24 +83,24 @@ public class MultiplayerScoreActivity extends Activity {
 
 
 
-        if(mBundle.getInt(MultiPlayerQuizActivity.KEY_SCORE_USER_1) > mBundle.getInt(MultiPlayerQuizActivity.KEY_SCORE_USER_2)) {
+        if(mBundle.getInt(MultiPlayerQuizOldActivity.KEY_SCORE_USER_1) > mBundle.getInt(MultiPlayerQuizOldActivity.KEY_SCORE_USER_2)) {
             setWinnerIsUser1();
         }
-        else if(mBundle.getInt(MultiPlayerQuizActivity.KEY_SCORE_USER_2) > mBundle.getInt(MultiPlayerQuizActivity.KEY_SCORE_USER_1)) {
+        else if(mBundle.getInt(MultiPlayerQuizOldActivity.KEY_SCORE_USER_2) > mBundle.getInt(MultiPlayerQuizOldActivity.KEY_SCORE_USER_1)) {
             setWinnerIsUser2();
         }
         else {
-            if(mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_1) > mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_2)) {
+            if(mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_1) > mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_2)) {
                 setWinnerIsUser1();
-            } else if(mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_2) > mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_1)) {
+            } else if(mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_2) > mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_1)) {
                 setWinnerIsUser2();
             } else
-                if(mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_1) < mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_2)) {
+                if(mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_1) < mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_2)) {
                     setWinnerIsUser1();
-                } else if(mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_2) < mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_1)) {
+                } else if(mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_2) < mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_1)) {
                     setWinnerIsUser2();
                 } else {
-                    Log.i("BiigLogScore", "Égalité parfaite");
+                    Log.i("BoUsLogScore", "Égalité parfaite");
                     //TODO Égalité parfaite
                 }
 
@@ -118,30 +118,30 @@ public class MultiplayerScoreActivity extends Activity {
         mTextViewPlayer_1_2.setText(USER_2);
         mTextViewPlayer_2_2.setText(USER_2);
 
-        String score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_1);
+        String score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_1);
         mTextViewTrue_1_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
         mTextViewTrueOut_1_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_1);
         mTextViewBad_1_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_2);
         mTextViewTrue_1_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
         mTextViewTrueOut_1_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_2);
         mTextViewBad_1_2.setText(score);
 
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_1);
         mTextViewTrue_2_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
         mTextViewTrueOut_2_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_1);
         mTextViewBad_2_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_2);
         mTextViewTrue_2_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
         mTextViewTrueOut_2_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_2);
         mTextViewBad_2_2.setText(score);
 
     }
@@ -153,30 +153,30 @@ public class MultiplayerScoreActivity extends Activity {
         mTextViewPlayer_2_2.setText(USER_1);
 
 
-        String score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_2);
+        String score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_2);
         mTextViewTrue_1_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
         mTextViewTrueOut_1_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_2);
         mTextViewBad_1_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_1);
         mTextViewTrue_1_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
         mTextViewTrueOut_1_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_1);
         mTextViewBad_1_2.setText(score);
 
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_2);
         mTextViewTrue_2_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_2);
         mTextViewTrueOut_2_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_2);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_2);
         mTextViewBad_2_1.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_USER_1);
         mTextViewTrue_2_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_TRUE_OUT_USER_1);
         mTextViewTrueOut_2_2.setText(score);
-        score = ""+ mBundle.getInt(MultiPlayerQuizActivity.KEY_NB_ANSWERED_BAD_USER_1);
+        score = ""+ mBundle.getInt(MultiPlayerQuizOldActivity.KEY_NB_ANSWERED_BAD_USER_1);
         mTextViewBad_2_2.setText(score);
     }
 

@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/rl_main_quiz_score"
-
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -27,28 +26,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/v_separator">
-        <TextView
-            android:id="@+id/tv_usr1_main_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            app:layout_widthPercent="50%"
-            android:text="Vainqueur : "
-            android:textSize="30sp"
-            android:textColor="#fff"
-            android:textStyle="bold"
-            android:textAlignment="center" />
-        <TextView
-            android:id="@+id/tv_usr1_main_res"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/tv_usr1_main_text"
-            app:layout_widthPercent="50%"
-            android:text="Joueur 1"
-            android:textSize="30sp"
-            android:textColor="#fff"
-            android:textStyle="bold"
-            android:textAlignment="center" />
+            <TextView
+                android:id="@+id/tv_usr1_main_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                app:layout_widthPercent="50%"
+                android:text="Vainqueur : "
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/tv_usr1_main_res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/tv_usr1_main_text"
+                app:layout_widthPercent="50%"
+                android:text="Joueur 1"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAlignment="center" />
         </android.support.percent.PercentRelativeLayout>
 
         <LinearLayout
@@ -64,16 +63,16 @@
             android:layout_marginBottom="10dp">
 
             <!--<TextView-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="Joueur 1"-->
-                <!--style="@style/QuizResultPlayer"/>-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Joueur 1"-->
+            <!--style="@style/QuizResultPlayer"/>-->
 
             <TextView
                 android:id="@+id/tv_player_1_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Joueur 1"
+                android:text="@string/activity_score_label_player_one"
                 style="@style/QuizResultPlayer"/>
             <android.support.percent.PercentRelativeLayout
                 android:layout_width="match_parent"
@@ -83,7 +82,7 @@
                     android:id="@+id/tv_good_1_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bonnes réponses : "
+                    android:text="@string/activity_score_label_true_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -115,7 +114,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_widthPercent="50%"
-                    android:text="dont hors temps : "
+                    android:text="@string/activity_score_label_overtime"
                     android:layout_toStartOf="@id/tv_true_out_1_1_nb"/>
             </android.support.percent.PercentRelativeLayout>
 
@@ -126,7 +125,7 @@
                     android:id="@+id/tv_bad_1_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mauvaises réponses : "
+                    android:text="@string/activity_score_label_wrong_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -145,7 +144,7 @@
                 android:id="@+id/tv_player_1_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Joueur 2"
+                android:text="@string/activity_score_label_player_two"
                 style="@style/QuizResultPlayer"/>
 
             <android.support.percent.PercentRelativeLayout
@@ -156,7 +155,7 @@
                     android:id="@+id/tv_good_1_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bonnes réponses : "
+                    android:text="@string/activity_score_label_true_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -187,7 +186,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_widthPercent="50%"
-                    android:text="dont hors temps : "
+                    android:text="@string/activity_score_label_overtime"
                     android:layout_toStartOf="@id/tv_true_out_1_2_nb"/>
             </android.support.percent.PercentRelativeLayout>
             <android.support.percent.PercentRelativeLayout
@@ -197,7 +196,7 @@
                     android:id="@+id/tv_bad_1_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mauvaises réponses : "
+                    android:text="@string/activity_score_label_wrong_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -227,7 +226,6 @@
 
 
         <!-- User 2 -->
-        <!-- User 1 -->
         <android.support.percent.PercentRelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -240,7 +238,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 app:layout_widthPercent="50%"
-                android:text="Vainqueur : "
+                android:text="@string/activity_score_label_winner"
                 android:textSize="30sp"
                 android:textColor="#fff"
                 android:textStyle="bold"
@@ -251,7 +249,7 @@
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@id/tv_usr2_main_text"
                 app:layout_widthPercent="50%"
-                android:text="Joueur 1"
+                android:text="@string/activity_score_label_player_one"
                 android:textSize="30sp"
                 android:textColor="#fff"
                 android:textStyle="bold"
@@ -276,7 +274,7 @@
                     android:id="@+id/tv_good_2_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bonnes réponses : "
+                    android:text="@string/activity_score_label_true_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -310,7 +308,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_widthPercent="50%"
-                    android:text="dont hors temps : "
+                    android:text="@string/activity_score_label_overtime"
                     android:layout_toStartOf="@id/tv_true_out_2_1_nb"/>
             </android.support.percent.PercentRelativeLayout>
 
@@ -321,7 +319,7 @@
                     android:id="@+id/tv_bad_2_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mauvaises réponses : "
+                    android:text="@string/activity_score_label_wrong_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -351,7 +349,7 @@
                     android:id="@+id/tv_good_2_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bonnes réponses : "
+                    android:text="@string/activity_score_label_true_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -385,7 +383,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_widthPercent="50%"
-                    android:text="dont hors temps : "
+                    android:text="@string/activity_score_label_overtime"
                     android:layout_toStartOf="@id/tv_true_out_2_2_nb"/>
             </android.support.percent.PercentRelativeLayout>
 
@@ -396,7 +394,7 @@
                     android:id="@+id/tv_bad_2_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mauvaises réponses : "
+                    android:text="@string/activity_score_label_wrong_answers"
                     app:layout_widthPercent="75%"
                     android:textSize="20sp"/>
                 <TextView
@@ -404,6 +402,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/tv_bad_2_2"
+                    android:layout_toEndOf="@id/tv_bad_2_2"
                     app:layout_widthPercent="25%"
                     android:textAlignment="center"
                     android:text="0"

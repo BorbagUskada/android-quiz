@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_quiz">
+
+
+    <!--<include-->
+        <!--android:id="@+id/ll_singleplayer_panel"-->
+        <!--layout="@layout/fragment_game_panel"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"/>-->
+
+    <fragment android:name="com.loicproust.zzquiz.quiz.ui.fragments.GamePanelFragment"
+        android:id="@+id/f_single_game_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:layout_heightPercent="50%"
+        tools:layout="@layout/fragment_game_panel" />
+
+        <TextView
+            android:id="@+id/tv_solo_score_label"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/f_single_game_panel"
+            android:textSize="@dimen/text_question"
+            android:textColor="#999"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Score"/>
+
+        <fragment android:name="com.loicproust.zzquiz.quiz.ui.fragments.ScorePanelFragment"
+            android:id="@+id/f_score_panel_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_solo_score_label"
+            tools:layout="@layout/fragment_score_singleplayer" />
+
+</android.support.percent.PercentRelativeLayout>
