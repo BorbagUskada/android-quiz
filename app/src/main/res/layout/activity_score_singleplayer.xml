@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_quiz">
+
+    <TextView
+        android:id="@+id/tv_solo_score_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_score_label_final"
+        android:textColor="@color/white_pure"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tv_solo_score_nb_true_answers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment android:name="com.loicproust.zzquiz.quiz.ui.fragments.ScorePanelFragment"
+        android:id="@+id/f_single_score_panel"
+        android:layout_below="@id/tv_solo_score_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_score_singleplayer" />
+
+    <Button
+        android:id="@+id/btn_single_score_back_to_menu"
+        android:layout_below="@+id/f_single_score_panel"
+        style="@style/MenuButton"
+        android:text="@string/menu_back_to_label"
+        android:background="@drawable/btn_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

@@ -4,7 +4,8 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="btn_main_textsize">30sp</dimen>
-    <dimen name="btn_main_width">150dp</dimen>"
+    <dimen name="btn_main_width">150dp</dimen>
+    <dimen name="btn_menu_width">170dp</dimen>
 
 
 
